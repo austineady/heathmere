@@ -719,6 +719,9 @@ header {
     text-align: center;
     color: white;
   }
+  footer h4 a {
+    color: white;
+  }
   .header-content {
     padding-left: 5px;
   }
