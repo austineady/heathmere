@@ -717,6 +717,7 @@ header {
 @media(max-width: 1000px) {
   footer h4 {
     text-align: center;
+    color: white;
   }
   .header-content {
     padding-left: 5px;
