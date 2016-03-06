@@ -442,16 +442,73 @@ header {
 .travel-box {
   background-color: rgba(240, 240, 240, 1);
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, .2);
-  color: black;
+  padding: 40px;
+  text-align: center;
+  color: RGBA(63, 69, 84, 1);
 }
 
-.travel-box h2 {
+.travel-box p {
+  font-size: 20px;
+  color: RGBA(63, 69, 84, 1);
+}
+
+.travel-box h4 {
   text-align: center;
   font-weight: 100;
+  color: RGBA(63, 69, 84, 1);
+  font-size: 25px;
 }
 
 .travel-box h3 {
     font-weight: 100;
+    color: RGBA(43, 143, 255, 1);
+    font-size: 28px;
+}
+
+.pricing-box {
+  float: left;
+  width: 350px;
+  height: 520px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, .2);
+  text-align: center;
+  margin: 5px;
+}
+
+.pricing-number {
+  font-size: 55px;
+  margin-bottom: 0;
+}
+
+.pricing-label {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.pricing-list {
+  border-top: 1px solid RGBA(223, 223, 224, 1);
+  padding-top: 20px;
+  padding-right: 10px;
+  margin-top: 30px;
+}
+
+.pricing-list-item {
+  list-style: none;
+  text-align: left;
+  margin-top: 15px;
+  padding-left: 40px;
+  font-size: 16px;
+}
+
+.pricing-box--large {
+  width: 370px;
+  height: 540px;
+}
+
+.pricing-box--large .pricing-number {
+  font-size: 65px;
+  color: RGBA(32, 230, 103, 1);
 }
 
 .action-box {
@@ -551,10 +608,6 @@ header {
 		width: 90%;
 		padding-left: 25px;
 	}
-
-  .travel-box {
-      min-height: 400px;
-  }
 
 	.hero .hero-content {
 		padding-top: 32%;
